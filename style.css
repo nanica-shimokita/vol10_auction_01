@@ -3,34 +3,34 @@ body {
     /* Noto Sans JP を優先 */
     font-family: 'Noto Sans JP', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #e0e0e0; /* 明るい文字色に変更 (ダークテーマ) */
+    color: #e0e0e0;
     background-color: #212121; /* 濃い背景色に変更 */
     margin: 0;
     padding: 20px;
-    font-size: 1.3em; 
+    font-size: 1.0em; 
 }
 
 .container {
     max-width: 1200px;
     margin: 20px auto;
-    background: #2b2b2b; /* コンテナの背景色をダークに変更 */
+    background: #2b2b2b;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* 影を強調 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
     text-align: center;
-    color: #FFD700; /* タイトルをゴールドに変更 */
+    color: #FFD700;
     margin-bottom: 40px;
     font-size: 2em; 
-    font-weight: 900; /* 太字を強調 */
+    font-weight: 900;
 }
 
 /* アコーディオンの共通スタイル */
 .accordion {
     margin-bottom: 15px;
-    border: 1px solid #444; /* ボーダー色をダークテーマに合わせる */
+    border: 1px solid #444;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -86,7 +86,7 @@ h1 {
 .hint-body p {
     margin: 0;
     padding: 0;
-    font-size: 1.2em; 
+    font-size: 0.8em; 
     color: #e0e0e0; 
 }
 
@@ -191,7 +191,7 @@ h1 {
 }
 
 #start-screen h1 {
-    font-size: 2.5em;
+    font-size: 2.0em;
     margin-bottom: 0.5em;
     color: #FFD700; /* ゴールドに変更 */
 }
