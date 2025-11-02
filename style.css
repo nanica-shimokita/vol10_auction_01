@@ -127,4 +127,97 @@ h1 {
     padding: 20px;
     border: 1px solid #444; /* ボーダー色をダークテーマに合わせる */
     border-radius: 5px;
-    background-color: #333;
+    background-color: #333; /* 背景色をダークテーマに合わせる */
+    text-align: center;
+}
+
+.password-area input[type="password"] {
+    padding: 10px;
+    border: 1px solid #555; /* ボーダー色を調整 */
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 200px;
+    background-color: #444; /* 入力欄の背景色をダークに */
+    color: white; /* 入力文字色を白に */
+}
+
+.password-area button {
+    background-color: #FFD700; /* ボタンの背景色をゴールドに変更 */
+    color: #212121; /* ボタンの文字色を濃い色に */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* 文字を太く */
+}
+
+.password-area button:hover {
+    background-color: #FFA500; /* ホバー時の色を濃いゴールドに */
+}
+
+#finalHint {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px dashed #FFD700; /* ボーダー色をゴールドに変更 */
+    background-color: #383838; /* 背景色をダークに変更 */
+    color: #e0e0e0; /* 文字色を明るく */
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.guideline-heading {
+    text-align: center;
+}
+.red-text {
+    color: #e74c3c; 
+    font-weight: bold;
+}
+.hint-image {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+/* スタート画面のスタイル */
+#start-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #212121; /* 背景色を統一 */
+}
+
+#start-screen h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #FFD700; /* ゴールドに変更 */
+}
+
+#start-screen p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    color: #e0e0e0; /* 文字色を明るく */
+}
+
+#show-hint-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #FFD700; /* ゴールドに変更 */
+    color: #212121; /* 文字色を濃い色に */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+#show-hint-button:hover {
+    background-color: #FFA500; /* ホバー時の色を濃いゴールドに */
+}
+
+#hint-content {
+    display: none;
+}
